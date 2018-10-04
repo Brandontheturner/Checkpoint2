@@ -1,0 +1,51 @@
+body {
+  background-image: url(../img/desk.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-size: 45px;
+  height: 30vh;
+  font-family: 'Charmonman', cursive;
+  font-family: 'Lobster', cursive;
+}
+
+.hero {
+  background: gray;
+  width: 100vw;
+  text-align: center;
+  font-size: 75;
+  font-family: 'Charmonman', cursive;
+  font-family: 'Lobster', cursive;
+  border: 2px solid black;
+  opacity: .7;
+}
+
+form {
+  height: 200px;
+  display: grid;
+  grid-template-columns: 200px;
+  margin: 5px;
+  padding: 5px;  
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 25;
+}
+
+.copyright {
+  position: fixed;
+  bottom: 0;
+}
+
+
+
+
+
+
+
